@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.goalkeeper.hcb.security.util.JwtTokenUtil;
 import com.kim.test.model.LoginRequest;
 
+/**
+ * java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar ./target/UserRestService-0.0.1.jar
+ * @author Kim K.
+ *
+ */
 @RestController 
 @RequestMapping("api")
 public class UserController {
